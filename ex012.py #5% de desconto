@@ -1,0 +1,14 @@
+#
+#
+#
+
+
+print()
+
+preco = float(input('Digite o preço do produto: '))
+
+desconto = preco * 0.05
+
+print(f'O preço do produto no valor de {preco} com desconto é de {preco - desconto}, recebeu um desconto de {desconto}R$')
+
+print()

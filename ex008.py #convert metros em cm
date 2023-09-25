@@ -1,0 +1,12 @@
+#
+#
+#
+print()
+
+n = float(input("Digite quantos metros: "))
+
+cm = n * 100
+
+print(f"O valor de {n} em centímetros é de {cm}cm.")
+
+print()

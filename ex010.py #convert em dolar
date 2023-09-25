@@ -1,0 +1,11 @@
+#
+#
+#
+print()
+dinheiro = float(input('Quanto dinheiro você tem: '))
+
+dolar = dinheiro / 3.27 #considerando valor do dolar do video
+
+print(f'O total convertido em dolar é de: {dolar:.2f}')
+
+print()

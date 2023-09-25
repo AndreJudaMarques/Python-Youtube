@@ -1,0 +1,18 @@
+#
+#
+#
+
+print()
+
+largura = float(input('Digite a largura em m²: '))
+altura = float(input('Digite a altura em m²: '))
+
+area = largura * altura
+
+tinta = area / 2
+
+#1 litro igual area de 2m²
+
+print(f'A área corresponde a {area}m² e precisa de {tinta:.0f}L de tinta')
+
+print()

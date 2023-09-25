@@ -1,0 +1,6 @@
+#
+#
+#
+numero = int(input("Digite um número: "))
+
+print(f'Seu número é: {numero}, o antecessor é {numero - 1} e o sucessor é o {numero + 1}')

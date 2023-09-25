@@ -1,0 +1,7 @@
+mensagem = "prazer em te conhecer"
+
+nome = input("Digite seu nome: ")
+
+#print(mensagem, nome)
+
+print(f"Prazer em te conhecer {nome}!")
