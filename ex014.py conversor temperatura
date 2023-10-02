@@ -1,0 +1,17 @@
+# conversor temperatura ºC para ºF
+
+print()
+print()
+
+temperatura = float(input('Indique a temperatura em ºC que gostaria de converter em ºF: '))
+
+#(0 °C × 9/5) + 32 = 32 °F
+
+farenheit = (temperatura * 9/5) + 32
+
+print(f'A temperatura de {temperatura}ºC corresponde a {farenheit}ºF')
+
+
+
+print()
+print()
