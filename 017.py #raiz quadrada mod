@@ -1,0 +1,23 @@
+print()
+print()
+
+from math import pow, isqrt, trunc
+
+'''num = int(input("Digite um numero: "))'''
+'''print(pow(num,2))'''
+
+catetoOposto = int(input("Digite o valor do Cateto Oposto: "))
+catetoAdjacente = int(input("Digite o valor Cateto Adjacente: "))
+
+catO = pow(catetoOposto, 2) #9
+catA = pow(catetoAdjacente, 2) #16
+
+soma = catO + catA #25.0
+nSoma = trunc(soma) #25
+
+resultado = isqrt(nSoma) #5
+
+print(resultado)
+
+print()
+print()
